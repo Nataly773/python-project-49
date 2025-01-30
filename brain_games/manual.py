@@ -8,7 +8,7 @@ def run_game(get_question_and_answer, instruction):
     for i in range(number_of_rounds):
         question, correct_answer = get_question_and_answer()
         user_answer = prompt.string(f'Question:{question}\n'
-                                    f'("Your answer: ')
+                                    f'Your answer: ')
         if  user_answer == correct_answer:
             print("Correct!")
         else:

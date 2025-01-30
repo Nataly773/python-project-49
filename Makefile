@@ -13,6 +13,9 @@ package-install:
 make lint:
 	uv run ruff check brain_games
 		
+brain-even:
+	uv run brain-even
+
 			
 
 

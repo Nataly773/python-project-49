@@ -1,6 +1,6 @@
 import random 
 from brain_games.manual import run_game
-from brain_games.const import calc_instruction, MATH_SIGNS 
+from brain_games.const import CALC_INSTRRUCTION, MATH_SIGNS 
 
   
 def get_expression_and_answer():
@@ -13,4 +13,4 @@ def get_expression_and_answer():
 
 
 def run_calc_game():
-    run_game(get_expression_and_answer, calc_instruction)
+    run_game(get_expression_and_answer, CALC_INSTRRUCTION)

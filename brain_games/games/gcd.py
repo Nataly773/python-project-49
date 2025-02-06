@@ -1,7 +1,7 @@
 import random 
 import math
 from brain_games.manual import run_game
-from brain_games.const import gcd_instruction
+from brain_games.const import GCD_INSTRRUCTION
 
 
 def get_nums_and_gcd():
@@ -12,4 +12,4 @@ def get_nums_and_gcd():
 
 
 def run_gcd_game():
-    run_game(get_nums_and_gcd, gcd_instruction)
+    run_game(get_nums_and_gcd, GCD_INSTRRUCTION)

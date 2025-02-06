@@ -1,12 +1,12 @@
 import random
 from brain_games.manual import run_game
-from brain_games.const import progression_instruction, min_progression_length,\
-      max_progression_length 
+from brain_games.const import PROGRRESSION_INSTRRUCTION, MIN_INSTRRUCTION_LENGTH,\
+    MAX_INSTRRUCTION_LENGTH
 
 
 def get_progression_and_miss_num():
     start, step = random.randint(1, 100), random.randint(1, 100)
-    prog_length = random.randint(min_progression_length, max_progression_length)
+    prog_length = random.randint(MIN_INSTRRUCTION_LENGTH, MAX_INSTRRUCTION_LENGTH)
     miss_index = random.randint(0, prog_length - 1)
     progr = []
     for i in range(prog_length):  
@@ -18,7 +18,7 @@ def get_progression_and_miss_num():
 
 
 def run_progression_game():
-    run_game(get_progression_and_miss_num, progression_instruction)
+    run_game(get_progression_and_miss_num, PROGRRESSION_INSTRRUCTION)
 
 
 

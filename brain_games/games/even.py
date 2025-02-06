@@ -1,6 +1,6 @@
 from random import randint
 from brain_games.manual import run_game
-from brain_games.const import even_instruction
+from brain_games.const import EVEN_INSTRRUCTION
 
 
 def is_even(number):
@@ -14,4 +14,4 @@ def get_question_and_answer():
 
 
 def run_even_game():
-    run_game(get_question_and_answer, even_instruction)
+    run_game(get_question_and_answer, EVEN_INSTRRUCTION)

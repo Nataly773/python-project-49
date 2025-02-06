@@ -16,6 +16,7 @@ def get_progression_and_miss_num():
     progr_with_miss_index = ' '.join(map(str, progr))
     return progr_with_miss_index, str(missed_num)
 
+
 def run_progression_game():
     run_game(get_progression_and_miss_num, progression_instruction)
 

@@ -1,6 +1,7 @@
 import random 
 from brain_games.manual import run_game
-from brain_games.const import prime_instruction
+from brain_games.const import prime_instruct
+
 
 def is_prime(num):
     if num <2:
@@ -11,6 +12,7 @@ def is_prime(num):
             return False
     return True
 
+
 def get_num_and_prime_ans():
     number = random.randint(1,100)
     answer = 'yes' if is_prime(number) else 'no'
@@ -18,4 +20,4 @@ def get_num_and_prime_ans():
 
 
 def run_prime_game():
-    run_game(get_num_and_prime_ans,prime_instruction)
+    run_game(get_num_and_prime_ans,prime_instruct)

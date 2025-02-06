@@ -4,7 +4,7 @@ from brain_games.const import progression_instruction, min_progression_length, m
 
 
 def get_progression_and_miss_num():
-    start, step = random.randint(1, 100), random.randint(1 ,100)
+    start, step = random.randint(1, 100), random.randint(1, 100)
     prog_length = random.randint(min_progression_length, max_progression_length)
     miss_index = random.randint(0 ,prog_length - 1)
     progr = []

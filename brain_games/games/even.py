@@ -1,6 +1,7 @@
 from random import randint
 from brain_games.manual import run_game
-from brain_games.const import EVEN_INSTRRUCTION
+
+EVEN_INSTRRUCTION = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
 def is_even(number):

@@ -1,6 +1,9 @@
 import random 
 from brain_games.manual import run_game
-from brain_games.const import PRIME_INSTRRUCTION
+
+PRIME_INSTRRUCTION = 'Answer "yes" if given number is prime. Otherwise answer \
+"no".'
+
 
 
 def is_prime(num):

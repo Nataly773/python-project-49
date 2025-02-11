@@ -1,6 +1,8 @@
 import random 
 from brain_games.manual import run_game
-from brain_games.const import CALC_INSTRRUCTION, MATH_SIGNS 
+
+CALC_INSTRRUCTION = 'What is the result of the expression?'
+MATH_SIGNS = ('+', '-', '*')
 
   
 def get_expression_and_answer():

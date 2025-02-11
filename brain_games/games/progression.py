@@ -1,5 +1,4 @@
 import random
-from brain_games.manual import run_game
 MIN_INSTRRUCTION_LENGTH, MAX_INSTRRUCTION_LENGTH = 5, 10
 
 

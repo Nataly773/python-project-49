@@ -5,6 +5,7 @@ GCD_INSTRRUCTION = "Find the greatest common divisor of given numbers."
 
 def main():
     run_game(get_nums_and_gcd, GCD_INSTRRUCTION)
- 
+
+
 if __name__ == "__main__":
     main()

@@ -1,9 +1,4 @@
 import random 
-from brain_games.manual import run_game
-
-PRIME_INSTRRUCTION = 'Answer "yes" if given number is prime. Otherwise answer \
-"no".'
-
 
 
 def is_prime(num):
@@ -21,6 +16,3 @@ def get_num_and_prime_ans():
     answer = 'yes' if is_prime(number) else 'no'
     return number, answer
 
-
-def run_prime_game():
-    run_game(get_num_and_prime_ans, PRIME_INSTRRUCTION)

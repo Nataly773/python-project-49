@@ -1,8 +1,5 @@
 import random
 from brain_games.manual import run_game
-
-
-PROGRRESSION_INSTRRUCTION = 'What number is missing in the progression?'
 MIN_INSTRRUCTION_LENGTH, MAX_INSTRRUCTION_LENGTH = 5, 10
 
 
@@ -20,8 +17,6 @@ def get_progression_and_miss_num():
     return progr_with_miss_index, str(missed_num)
 
 
-def run_progression_game():
-    run_game(get_progression_and_miss_num, PROGRRESSION_INSTRRUCTION)
 
 
 
